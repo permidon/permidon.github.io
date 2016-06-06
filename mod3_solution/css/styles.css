@@ -1,1 +1,48 @@
-s
+* {
+    box-sizing: border-box;
+}
+body {
+	background-color: #D5FFE8;
+}
+h1 {
+    font-size: 1.75em;
+}
+section {
+    background-color: #EEDFBB;
+    border: 1px solid #000000;
+    margin: 0 0 25px 0;
+    padding: 0;
+}
+section h3 {
+    font-size: 1.25em;
+}
+section p {
+    padding: 0 6px 4px 6px;
+}
+#header-nav {
+	background-color: #EEDFCC;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+  }
+.navbar-brand {
+	font-family: 'Cinzel', serif;
+}
+.my-menu {
+	font-family: 'Satisfy', serif;
+	font-size: 1.25em;
+}
+.our_menu {
+	font-family: 'Satisfy', serif;
+	font-size: 2.0em;
+}
+.title-menu {
+	font-family: 'Courgette', serif;
+	font-size: 1.5em;
+}
+.description-menu {
+	font-family: 'Montez', serif;
+	font-size: 1.2em;
+}
+
+
