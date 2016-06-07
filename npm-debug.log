@@ -1,0 +1,36 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'midnight*' ]
+2 info using npm@2.15.1
+3 info using node@v4.4.3
+4 verbose install initial load of Z:\Documents\Education\Git\permidon.github.io\package.json
+5 verbose installManyTop reading scoped package data from Z:\Documents\Education\Git\permidon.github.io\node_modules\mc\package.json
+6 info package.json mc@1.0.6 license should be a valid SPDX license expression
+7 verbose readDependencies loading dependencies from Z:\Documents\Education\Git\permidon.github.io\package.json
+8 silly cache add args [ 'midnight*', null ]
+9 verbose cache add spec midnight*
+10 silly cache add parsed spec Result {
+10 silly cache add   raw: 'midnight*',
+10 silly cache add   scope: null,
+10 silly cache add   name: null,
+10 silly cache add   rawSpec: 'midnight*',
+10 silly cache add   spec: 'Z:\\Documents\\Education\\Git\\permidon.github.io\\midnight*',
+10 silly cache add   type: 'local' }
+11 error addLocal Could not install Z:\Documents\Education\Git\permidon.github.io\midnight*
+12 verbose stack Error: ENOENT: no such file or directory, open 'Z:\Documents\Education\Git\permidon.github.io\midnight*'
+12 verbose stack     at Error (native)
+13 verbose cwd Z:\Documents\Education\Git\permidon.github.io
+14 error Windows_NT 10.0.10586
+15 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "midnight*"
+16 error node v4.4.3
+17 error npm  v2.15.1
+18 error path Z:\Documents\Education\Git\permidon.github.io\midnight*
+19 error code ENOENT
+20 error errno -4058
+21 error syscall open
+22 error enoent ENOENT: no such file or directory, open 'Z:\Documents\Education\Git\permidon.github.io\midnight*'
+22 error enoent This is most likely not a problem with npm itself
+22 error enoent and is related to npm not being able to find a file.
+23 verbose exit [ -4058, true ]

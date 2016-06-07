@@ -28,19 +28,19 @@ section p {
 .navbar-brand {
 	font-family: 'Cinzel', serif;
 }
-.my-menu {
+.menu-item {
 	font-family: 'Satisfy', serif;
 	font-size: 1.25em;
 }
-.our_menu {
+.our-menu {
 	font-family: 'Satisfy', serif;
 	font-size: 2.0em;
 }
-.title-menu {
+.menu-title {
 	font-family: 'Courgette', serif;
 	font-size: 1.5em;
 }
-.description-menu {
+.menu-description {
 	font-family: 'Montez', serif;
 	font-size: 1.2em;
 }
